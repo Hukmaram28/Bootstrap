@@ -1,0 +1,35 @@
+$font-stack:   'Playfair Display', sans-serif;
+$primary-color: rgb(255, 255, 255);
+body {
+	margin: 0;
+	overflow-x: hidden;
+    margin-right: 0;
+    margin-left: 0;
+	float: left;
+}
+.navbar-brand {
+       font-family: 'Paytone One';
+       padding: 0%;
+       font-size: 3rem;
+       text-shadow: 3px 2px #1359db8a;
+	   color: $primary-color;
+}
+
+nav {
+   background-color: rgb(0, 0, 0);
+   font-weight: bold;
+}
+
+nav {
+    .navbar-nav{
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.navbar {
+    position: fixed;
+   width: 100%;
+    z-index: 100;
+    padding-right: -16px;
+}
