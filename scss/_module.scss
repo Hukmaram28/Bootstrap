@@ -1,32 +1,35 @@
-.carousel
-{
+.carousel {
     h3 {
-	text-align: center;
-	font-size: 2rem;
-	font-weight: 800;
-	text-transform: uppercase;
-	font-style: normal;
-	text-shadow: 3px 3px #0d0d0e;
-	cursor: auto;
-	color: rgb(252, 255, 255);
-	letter-spacing: 0.0138889em;
-}}
-.row {
-	.col-sm-4{
-		padding-left: 2%;
-	
-	}
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-style: normal;
+        text-shadow: 3px 3px #0d0d0e;
+        cursor: auto;
+        color: rgb(252, 255, 255);
+        letter-spacing: 0.0138889em;
+    }
 }
-footer{
-	.card-body{
-		h6{
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	line-height: 1.2em;
-	letter-spacing: 0.1em;
-	font-size: 0.60em;
-	color: rgba(197, 189, 189, 0.397);
-		}
-	}
+
+.carousel-inner {
+    .carousel-item {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+footer {
+    .card-body {
+        h6 {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            line-height: 1.2em;
+            letter-spacing: 0.1em;
+            font-size: 0.60em;
+            color: rgba(197, 189, 189, 0.397);
+        }
+    }
 }
