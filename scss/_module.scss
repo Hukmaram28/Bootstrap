@@ -1,7 +1,7 @@
 .carousel {
     h3 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 3vw;
         font-weight: 800;
         text-transform: uppercase;
         font-style: normal;
@@ -19,6 +19,24 @@
         }
     }
 }
+@media (max-width:780px){
+	.carousel-inner{
+	.carousel-item{
+     margin-top: 60px;
+	}
+}}
+@media (max-width:502px){
+	.carousel-inner{
+	.carousel-item{
+     margin-top: 80px;
+	}
+}}
+@media (max-width:361px){
+	.carousel-inner{
+	.carousel-item{
+     margin-top: 120px;
+	}
+}}
 
 footer {
     .card-body {

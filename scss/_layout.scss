@@ -82,16 +82,18 @@ hr {
     background-color: rgb(250, 250, 250);
 }
 
-/*Contact sectiom*/
+/*Contact section*/
 
 .content-header {
     font-family: 'Paytone One';
-    color: #e4d023;
+    color: #ffffff;
     font-size: 45px;
+    text-shadow: 3px 2px #1359db8a;
 }
 
 .section-content {
     text-align: center;
+    text-shadow: 3px 2px #1359db8a;
 }
 
 #contact {
@@ -153,4 +155,6 @@ footer {
 
 .row {
     width: 100%;
+    margin-left: 0;
+    height: auto;
 }
